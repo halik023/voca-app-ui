@@ -8,12 +8,12 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>hahah</div>
-      <Routes>
-        <Route path="/app" element={<div>app</div>} />
-      </Routes>
-    </>
+    <div className="p-4">
+      <h1 className="text-2xl font-bold text-center text-gray-800">
+        Kết hợp Tailwind CSS và SCSS
+      </h1>
+      <button className="custom-button mt-4">Click Me</button>
+    </div>
   );
 }
 
